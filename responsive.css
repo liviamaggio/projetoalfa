@@ -15,35 +15,6 @@
         grid-template-rows: 10vh 50vh 50vh 50vh 50vh 50vh 40vh 10vh;
     }
 
-    nav ul {
-        list-style: none;
-        display: flex;
-        gap: 12rem;
-    }
-    
-    a {
-        color: #000F99;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: #E6B507;
-        text-decoration: none;
-    }
-    
-    .o-menu {
-        display: flex;
-        grid-area: menu;
-        background-color: white;
-        margin: 0;
-        text-align: center;
-        align-items: self-end;
-        justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-family: 'Montserrat', sans-serif;
-    }
-
     
 #imginicial {
     position: absolute;
