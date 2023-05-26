@@ -152,6 +152,8 @@
         top: 1250px;
         display: flex;
         color: #000F99;
+        justify-content: center;
+        align-items: center;
     }
 
     #imgdiario {
