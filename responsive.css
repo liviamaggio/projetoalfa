@@ -160,11 +160,7 @@
     }
 
     #abstract1 {
-        display: flex;
-        position: absolute;
-        width: 250px;
-        height: 150px;
-        left: 0;
+        display: none;
     }
 
     #baixeaqui {
@@ -200,12 +196,7 @@
 
 
     #abstract2 {
-        display: flex;
-        position: absolute;
-        width: 250px;
-        height: 150px;
-        left: 0;
-        top: 1290px;
+        display: none;
     }
 
     #depoimentos {
