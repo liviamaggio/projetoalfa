@@ -16,7 +16,7 @@ html {
         "header header header"
         "main main main"
         "right right right"
-        "left left left"
+        "materiais materiais materiais"
         "section section section"
         "footer footer footer";
     grid-template-columns: auto auto auto;
@@ -32,10 +32,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #E6B507;
-    text-decoration: none;
-}
+
 
 .o-menu {
     display: flex;
@@ -52,15 +49,14 @@ a:hover {
 
 
 #imginicial {
-    position: absolute;
     width: 620px;
     height: 395px;
-    left: 797px;
 }
 
 
 #o-header {
     display: flex;
+    flex-direction: row;
     grid-area: header;
     background-color: #FFD691;
     text-align: center;
@@ -70,11 +66,8 @@ a:hover {
 
 
 #projetoalfa {
-    position: absolute;
-    width: 736px;
-    height: 0px;
-    left: 10px;
-    justify-content: center;
+    max-width: 45rem;
+    justify-content: left;
     font-style: normal;
     font-weight: 400;
     font-size: 110px;
@@ -92,10 +85,6 @@ a:hover {
 #projeto {
     display: flex;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    width: 740px;
-    height: 0px;
-    left: 61px;
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -108,10 +97,9 @@ a:hover {
     animation-duration: 2s;
 }
 
-
-
 #o-main {
     display: flex;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -120,20 +108,19 @@ a:hover {
 }
 
 #imgprojeto {
-    position: absolute;
     width: 414px;
     height: 581px;
-    left: 88px;
+    margin-left: 5rem;
     justify-content: center;
-    
+}
 
+.col-quemsomos-text, .col-projeto-text {
+    max-width: 55rem;
 }
 
 #quemsomos {
-    position: absolute;
-    width: 514px;
-    height: 0px;
-    left: 543px;
+    margin-left: 2rem;
+    max-width: 514px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -146,11 +133,8 @@ a:hover {
 }
 
 #textoquemsomos {
-    position: absolute;
+    margin-left: 2rem;
     display: flex;
-    width: 811px;
-    height: 0px;
-    left: 539px;
     justify-content: center;
     align-items: flex-start;
     font-family: 'Montserrat', sans-serif;
@@ -172,7 +156,6 @@ a:hover {
 
 
 #equipe {
-    position: absolute;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -182,24 +165,21 @@ a:hover {
     text-align: right;
     color: #fff;
     line-height: 90px;
-    width: 100px;
-    left: 400px;
     animation: jackInTheBox;
     animation-duration: 5s;
+    max-width: 30rem;
 }
 
 #textequipe {
-    position: absolute;
+    margin-left: 2rem;
     display: flex;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    width: 400px;
     font-size: 20px;
-    left: 750px;
     animation: jackInTheBox;
     animation-duration: 5s;
-
+    max-width: 30rem;
 }
 
 #o-left {
@@ -209,74 +189,11 @@ a:hover {
     justify-content: center;
 }
 
-#imgdiario {
-    position: absolute;
-    display: flex;
-    width: 525px;
-    height: 609px;
-    align-items: end;
-    left: 830px;
-}
-
-#materiais {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    width: 800px;
-    left: 98px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    display: flex;
-    color: #000F99;
-    top: 2350px;
-}
-
-#abstract1 {
-    display: flex;
-    position: absolute;
-    width: 450px;
-    height: 350px;
-    left: 0;
-}
-
-#abstract2 {
-    display: flex;
-    position: absolute;
-    width: 250px;
-    height: 350px;
-    left: 0;
-    top: 2485px;
-}
-
 #baixeaqui {
     font-size: 20px;
     align-items: center;
     justify-content: center;
     top: 2530px;
-}
-
-button {
-    position: absolute;
-    display: flex;
-    width: 291px;
-    height: 57px;
-    left: 98px;
-    background: #FFD691;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-}
-
-button:hover {
-    position: absolute;
-    display: flex;
-    width: 291px;
-    height: 57px;
-    left: 98px;
-    background: #8E97E6;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
 }
 
 #o-section {
@@ -289,7 +206,6 @@ button:hover {
 
 #depoimentos {
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: flex-end;
     font-size: 40px;
@@ -300,10 +216,9 @@ button:hover {
 }
 
 #retdepoimento1 {
-    position: absolute;
     display: flex;
     align-items: center;
-    width: 1083px;
+    width: 60rem;
     height: 378px;
     left: 178px;
     background: #FFD691;
@@ -312,8 +227,7 @@ button:hover {
 }
 
 #depoimento1 {
-    position: absolute;
-    width: 800px;
+    width: 60rem;
     height: 253px;
     left: 150px;
     font-family: 'Montserrat', sans-serif;
@@ -337,13 +251,10 @@ button:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     padding: 15px;
+    text-align: center;
 }
 
 #insta {
-    position: absolute;
-    width: 479.08px;
-    height: 82.92px;
-    left: 797.77px;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -351,14 +262,9 @@ button:hover {
     display: flex;
     color: #E4E7FF;
     font-family: 'Montserrat', sans-serif;
-    top: 3650px;
 }
 
 #arroba {
-    position: absolute;
-    width: 254.28px;
-    height: 38.69px;
-    left: 797.77px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -366,14 +272,9 @@ button:hover {
     line-height: 38px;
     display: flex;
     color: #E4E7FF;
-    top: 3710px;
 }
 
 #email {
-    position: absolute;
-    width: 479.08px;
-    height: 82.92px;
-    left: 257.79px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -381,14 +282,9 @@ button:hover {
     line-height: 56px;
     display: flex;
     color: #E4E7FF;
-    top: 3650px;
 }
 
 #gmail {
-    position: absolute;
-    width: 254.28px;
-    height: 38.69px;
-    left: 251.92px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -396,5 +292,69 @@ button:hover {
     line-height: 38px;
     display: flex;
     color: #E4E7FF;
-    top: 3710px;
+}
+
+.footer-row {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+#materiais {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-height: 90vh;
+    grid-area: materiais;
+    font-family: 'Montserrat', sans-serif;
+    /* O caminho da URL será o local da sua imagem */
+    background-image: url('../imagens/bg-materiais.png'); 
+
+    /* Isso ajudará a garantir que a imagem cubra toda a div */
+    background-size: cover; 
+
+    /* Centraliza a imagem na div */
+    background-position: center; 
+
+    /* Impede a repetição da imagem */
+    background-repeat: no-repeat;
+}
+
+#materiais h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #000F99;
+    margin-bottom: 2rem;
+}
+
+#materiais div {
+    margin-left: 6rem;
+}
+
+a.button {
+    display: flex;
+    width: 291px;
+    height: 57px;
+    left: 98px;
+    background: #FFD691;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    background-color: #000F99;
+    color: #E6B507;
+}
+
+button:hover {
+    background: #8E97E6;
 }

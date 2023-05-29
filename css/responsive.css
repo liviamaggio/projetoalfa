@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+@media (max-width: 768px) {
 
     #wrapper {
         display: grid;
@@ -6,298 +6,29 @@
             "header"
             "main"
             "right"
-            "left"
+            "materiais"
             "section"
             "footer";
-        grid-gap: 0;
         grid-template-columns: auto;
-        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 40vh 10vh;
+        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 35vh;
     }
 
-    * {
-        padding: 0;
-        margin: 0;
+    #o-right, #o-main, #o-footer, #o-section, #materiais, #o-header {
+        flex-direction: column;
+        max-width: 100%;
     }
 
-    #imginicial {
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: 797px;
-    }
-
-    #projetoalfa {
-        position: absolute;
-        width: 400px;
-        height: 0px;
-        left: 50px;
-        line-height: normal;
-        justify-content: start;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        display: flex;
-        color: #000F99;
-        align-items: flex-end;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bolder;
-        text-align: left;
-        animation: fadeInDown;
-        animation-duration: 2s;
-    }
-
-
-    #projeto {
-        display: flex;
-        font-family: 'Montserrat', sans-serif;
-        position: absolute;
-        width: 400px;
-        height: 0px;
-        left: 50px;
-        font-style: normal;
-        font-weight: 400;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        font-size: 20px;
-        color: #000F99;
-        text-align: left;
-        animation: fadeInDown;
-        animation-duration: 2s;
-    }
-
-    #imgprojeto {
-        position: absolute;
-        width: 200px;
-        height: 300px;
-        left: 30px;
-        justify-content: center;
-    }
-
-    #quemsomos {
-        position: absolute;
-        width: 200px;
-        height: 0px;
-        left: 250px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        display: flex;
-        align-items: flex-end;
-        text-align: left;
-        color: #E6B507;
-        line-height: normal;
-    }
-
-    #textoquemsomos {
-        position: absolute;
-        display: flex;
-        width: 200px;
-        height: 0px;
-        left: 250px;
-        justify-content: center;
-        align-items: flex-start;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 10px;
-        color: #000000;
-        text-align: left;
-    }
-
-    #equipe {
-        position: absolute;
-        display: flex;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 50px;
-        display: flex;
-        text-align: right;
-        color: #fff;
-        line-height: normal;
-        width: 100px;
-        left: 50px;
-        animation: jackInTheBox;
-        animation-duration: 5s;
-    }
-
-    #textequipe {
-        position: absolute;
-        display: flex;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        text-align: left;
-        width: 200px;
-        font-size: 10px;
-        left: 260px;
-        animation: jackInTheBox;
-        animation-duration: 5s;
-
+    #imginicial, #imgprojeto {
+        display: none;
     }
 
     #materiais {
-        font-family: 'Montserrat', sans-serif;
-        position: absolute;
-        width: 400px;
-        left: 50px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        top: 1250px;
-        display: flex;
-        color: #000F99;
-        justify-content: center;
-        align-items: center;
+        background-image: none;
     }
 
-    #imgdiario {
-        display: none;
-  
-    }
-
-    #abstract1 {
-        display: none;
-    }
-
-    #baixeaqui {
-        font-size: 10px;
-        align-items: center;
-        justify-content: center;
-        top: 1340px;
-    }
-
-    button {
-        position: absolute;
-        display: flex;
-        width: 100px;
-        height: 30px;
-        left: 50px;
-        background: #FFD691;
-        border-radius: 5px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    button:hover {
-        position: absolute;
-        display: flex;
-        width: 100px;
-        height: 30px;
-        left: 50px;
-        background: #8E97E6;
-        border-radius: 5px;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    #abstract2 {
-        display: none;
-    }
-
-    #depoimentos {
-        display: flex;
-        position: absolute;
-        justify-content: center;
-        align-items: flex-end;
+    #materiais h1 {
+        font-weight: 100;
         font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bolder;
-        color: #000F99;
-        left: 100px;
-    }
-
-    #retdepoimento1 {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        width: 300px;
-        height: 100px;
-        left: 100px;
-        background: #FFD691;
-        border-radius: 13px;
-        top: 1600px;
-    }
-
-    #depoimento1 {
-        position: absolute;
-        width: 200px;
-        height: 253px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 10px;
-        display: flex;
-        left: 50px;
-        color: #000F99;
-    }
-
-    #contatos {
-        position: absolute;
-        color: #FFD691;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
-        padding: 15px;
-        left: 150px;
-    }
-
-    #insta {
-        position: absolute;
-        width: 479.08px;
-        height: 82.92px;
-        left: 300px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: normal;
-        display: flex;
-        color: #E4E7FF;
-        font-family: 'Montserrat', sans-serif;
-        top: 1960px;
-    }
-
-    #arroba {
-        position: absolute;
-        width: 254.28px;
-        height: 38.69px;
-        left: 300px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 38px;
-        display: flex;
-        color: #E4E7FF;
-        top: 1990px;
-    }
-
-    #email {
-        position: absolute;
-        width: 479.08px;
-        height: 82.92px;
-        left: 40px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 56px;
-        display: flex;
-        color: #E4E7FF;
-        top: 1950px;
-    }
-
-    #gmail {
-        position: absolute;
-        width: 254.28px;
-        height: 38.69px;
-        left: 40px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 38px;
-        display: flex;
-        color: #E4E7FF;
-        top: 1990px;
     }
 
 }
