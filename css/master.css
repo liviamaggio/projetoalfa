@@ -83,6 +83,7 @@ a {
 }
 
 #projeto {
+    margin-left: 0px;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -223,7 +224,6 @@ a {
     left: 178px;
     background: #FFD691;
     border-radius: 13px;
-    top: 3000px;
 }
 
 #depoimento1 {
@@ -330,7 +330,7 @@ a {
 #materiais h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #000F99;
     margin-bottom: 2rem;
 }
