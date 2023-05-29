@@ -3,7 +3,6 @@
     #wrapper {
         display: grid;
         grid-template-areas:
-            "menu"
             "header"
             "main"
             "right"
@@ -12,18 +11,12 @@
             "footer";
         grid-gap: 0;
         grid-template-columns: auto;
-        grid-template-rows: 10vh 50vh 50vh 50vh 50vh 50vh 40vh 10vh;
+        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 40vh 10vh;
     }
 
     * {
         padding: 0;
         margin: 0;
-    }
-
-    
-
-    .textmenu {
-        display: none;
     }
 
     #imginicial {

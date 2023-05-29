@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/menu-hamburguer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
+    <nav class="o-menu">
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="menu-items">
+            <li class="textmenu"><a href="#o-main">QUEM SOMOS</a></li>
+            <li class="textmenu"><a href="#o-right">NOSSA EQUIPE</a></li>
+            <li class="textmenu"><a href="#o-left">MATERIAIS</a></li>
+            <li class="textmenu"><a href="#o-section">DEPOIMENTOS</a></li>
+            <li class="textmenu"><a href="#o-footer">CONTATO</a></li>
+        </ul>
+    </nav>
     <div id="wrapper">
-
-        <nav class="o-menu">
-            <ul>
-                <li class="textmenu"><a href="#o-main">QUEM SOMOS</a></li>
-                <li class="textmenu"><a href="#o-right">NOSSA EQUIPE</a></li>
-                <li class="textmenu"><a href="#o-left">MATERIAIS</a></li>
-                <li class="textmenu"><a href="#o-section">DEPOIMENTOS</a></li>
-                <li class="textmenu"><a href="#o-footer">CONTATO</a></li>
-            </ul>
-        </nav>
 
         <header id="o-header">
             <h1 id="projetoalfa">Projeto Alfa</h1>
@@ -80,6 +85,8 @@
             <p id="gmail">projetoalfaufpb@gmail.com</p>
         </footer>
     </div>
+
+    <script src="js/menu-hamburguer.js"></script>
 
 </body>
 
